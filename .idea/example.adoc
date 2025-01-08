@@ -1,0 +1,34 @@
+= Make It Real
+
+== Introduction
+
+Make It Real is a cloud based service,
+where you can upload a model you want 3D printed,
+or an idea of what you need. If you send a model
+we print it for you and ship to you directly.
+If you sent an idea, we make you a model based
+on that, while asking you further questions about your needs,
+and then send it to you.
+
+== Software dependencies
+* Node.js +
+* React.js +
+* SQLite
+
+Works on all operating systems
+
+== Usage Instructions
+=== Sending a prompt
+You can send us a description of the item you want to be printed. +
+From there, we will contact you to get further information about your idea.
+
+image::order.PNG[]
+
+=== Uploading your model
+If you send in your own design, we offer you the option of
+sharing your design for others to order. This is beneficial for
+you, because you get a percentage of every sell we make on your design.
+
+
+
+
