@@ -8,16 +8,48 @@ or an idea of what you need. If you send a model
 we print it for you and ship to you directly.
 If you sent an idea, we make you a model based
 on that, while asking you further questions about your needs,
-and then send it to you.
+and then send it to you. You can send your 3D model in .stl or in .step file format.
+
+== The goal
+
+The goal is to create an application that allows users to live out their creativity with 3D printable designs. If they don't want or don't have the resources to buy a 3D printer, we can give you a much cheaper solution to make your ideas come to life.
+
+== Technical description
+
+=== Frontend
+
+=== Backend
+
+== Technical requirements
+
+=== From the user's side
+
+The only requirements from the user are a web browser, and Internet connection.
+
+=== From the admin's side
+
+For the backend to work properly you need to download Prusa Slicer, stl-thumb. The backend uses Prusa Slicer and stl-thumb to generate G-Code and product image.
 
 == Software dependencies
 * Node.js +
 * React.js +
-* SQLite
+* SQLite +
+* Prusa Slicer
 
 Works on all operating systems
 
 == Usage Instructions
+=== Create account
+You can create an account by clicking on the upper-right LOGIN icon, then you click on REGISTER. There you have to make a username, give your e-mail address, create a password and confirm it.
+
+
+image::register.PNG[]
+
+=== Login
+If you already have an account, you can log in by typing in your credentials.
+
+image::login.PNG[]
+
 === Sending a prompt
 You can send us a description of the item you want to be printed. +
 From there, we will contact you to get further information about your idea.
@@ -30,6 +62,38 @@ sharing your design for others to order. This is beneficial for
 you, because you get a percentage of every sell we make on your design.
 
 image::products (2).png[]
+
+== Managing files
+=== Size limits
+You can upload a model to the max size of 20cm*20cm*20cm.
+
+=== You can choose from different materials
+* PLA +
+* PETG +
+* ABS
+
+=== You can customise the size, the material, the quantity and the color.
+image::product.PNG[]
+
+== Profile
+
+image::profile.PNG[]
+
+=== Delivery informations
+
+Here you can see your delivery informations, so you can edit them if you move or want to edit it.
+
+=== Order history
+
+Here will be the models you ordered in the past.
+
+=== My models
+
+
+
+=== Statistics
+
+
 
 == Contact information
 makeitreal@business.com +
