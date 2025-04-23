@@ -61,11 +61,30 @@ If you send in your own design, we offer you the option of
 sharing your design for others to order. This is beneficial for
 you, because you get a percentage of every sell we make on your design.
 
-image::products (2).png[]
+image::addnewproduct.PNG[]
+
+=== Library
+When you upload a design it is added to the library, so others can order it and you get a percentage after each sell.
+
+image::library.PNG[]
+
+=== Product
+If you click on any product in the library it takes you to the product page.
+
+image::product.PNG[]
+
+=== Cart
+When you decided you want the product, you can add it to the cart.
+
+image::cart.PNG[]
+
+=== Checkout
+After you are done with shopping you can finalize your order in the checkout section.
+
+image::checkout.PNG[]
+
 
 == Managing files
-=== Size limits
-You can upload a model to the max size of 20cm*20cm*20cm.
 
 === You can choose from different materials
 * PLA +
@@ -85,15 +104,20 @@ Here you can see your delivery informations, so you can edit them if you move or
 
 === Order history
 
-Here will be the models you ordered in the past.
+Here are the models you ordered in the past.
+
+image::order_history.PNG[]
 
 === My models
 
+Here are your previously uploaded models.
 
+image::my_models.PNG[]
 
 === Statistics
+Here are the total earnings from you models, the number of sales and your percentage from it.
 
-
+image::statistics.PNG[]
 
 == Contact information
 makeitreal@business.com +
