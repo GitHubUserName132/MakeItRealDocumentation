@@ -14,12 +14,6 @@ and then send it to you. You can send your 3D model in .stl or in .step file for
 
 The goal is to create an application that allows users to live out their creativity with 3D printable designs. If they don't want or don't have the resources to buy a 3D printer, we can give you a much cheaper solution to make your ideas come to life.
 
-== Technical description
-
-=== Frontend
-
-=== Backend
-
 == Technical requirements
 
 === From the user's side
@@ -50,8 +44,8 @@ If you already have an account, you can log in by typing in your credentials.
 
 image::login.PNG[]
 
-=== Sending a prompt
-You can send us a description of the item you want to be printed. +
+=== Sending a custom product
+You can send us a model file (.stl) of the item you want to be printed. +
 From there, we will contact you to get further information about your idea.
 
 image::order.PNG[]
@@ -96,11 +90,11 @@ image::product.PNG[]
 
 == Profile
 
-image::profile.PNG[]
-
 === Delivery informations
 
 Here you can see your delivery informations, so you can edit them if you move or want to edit it.
+
+image::profile.PNG[]
 
 === Order history
 
@@ -120,8 +114,8 @@ Here are the total earnings from you models, the number of sales and your percen
 image::statistics.PNG[]
 
 == Contact information
-makeitreal@business.com +
-+12 345 6789
+link:mailto:info@makeitreal.com[makeitreal@info.com ] +
++36(69)324-04-45
 
 
 
