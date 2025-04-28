@@ -22,7 +22,20 @@ The only requirements from the user are a web browser, and Internet connection.
 
 === From the admin's side
 
-For the backend to work properly you need to download Prusa Slicer, stl-thumb. The backend uses Prusa Slicer and stl-thumb to generate G-Code and product image.
+For the backend to work properly you need to download Prusa Slicer, stl-thumb. The backend uses Prusa Slicer and stl-thumb to generate G-Code and product images. You can install all dependencies and initialize the SQLite database on a Windows machine by opening a terminal in the `backend` directory and running the following commands:
+
+```powershell
+npm install
+winget install -e --id UnlimitedBacon.STL-Thumb
+winget install -e --id Prusa3D.PrusaSlicer
+node init_db.js
+```
+
+Afterwards you can start the backend by running
+
+```
+npm start
+```
 
 == Software dependencies
 * Node.js +
